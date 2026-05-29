@@ -2,7 +2,7 @@
 const path = require('path');
 const config = require('../');
 const defaults = require('../config/defaults');
-const Joi = require('@hapi/joi');
+const Joi = require('joi');
 
 module.exports.generate = {};
 
